@@ -17,6 +17,5 @@ int main()
          << BOSS4 << endl;
     cout << Nagarro << endl;
     cout << HackerBlocks << endl;
-
     return 0;
 }
