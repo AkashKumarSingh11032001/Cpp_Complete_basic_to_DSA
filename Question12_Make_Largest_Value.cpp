@@ -17,25 +17,22 @@ int main(){
     }
 
 
-    //print Decreasing array
+    //major code just checking(11 12 13 14) ==> 11+12(1112) > 12+11(1211)? swap:contiues
     for(int i=0;i<N;i++){
-        cout<<array[i]<<"*";
-    }
-
-    string temp;
-    for (int i = 0; i < N; ++i) {
-        for (int j = 0; j < N - i; ++j) {
-            if (array[j] >array[j + 1]) {
-            temp =array[j];
-            array[j] =array[j + 1];
-            array[j + 1] = temp;
+        for(int j=i+1;j<N;j++){
+            if(array[j]+array[i] > array[i]+array[j]){
+                swap(array[i],array[j]);
             }
+            
         }
+        
     }
 
+    
+    //final Number
     for(int i = 0; i < N; ++i)
     {
-       cout << array[i] << endl;
+       cout << array[i];
     }
 
 }
