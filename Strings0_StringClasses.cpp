@@ -25,7 +25,7 @@ int main()
     //empty()
     if (s0.empty())
     {
-        cout << "s0 is empty"<<endl;
+        cout << "s0 is empty" << endl;
     }
     //append()
     s0.append("I love Ao");
@@ -45,11 +45,11 @@ int main()
     //overlaod opr
     if (s0 > s1)
     {
-        cout << "s0 is lexugaphically greater than s1"<<endl;
+        cout << "s0 is lexugaphically greater than s1" << endl;
     }
     else
     {
-        cout << "s1 is lexugaphically greater than s0"<<endl;
+        cout << "s1 is lexugaphically greater than s0" << endl;
     }
 
     //square bract
